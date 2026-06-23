@@ -336,13 +336,183 @@ p {
     font-size: 2rem;
   }
 }
-.about-section{
-    background: #492d23;
+.about-section {
+  background: #492d23;
 }
-.about-section h2,p{
-    color: antiquewhite;
+.about-section h2,
+p {
+  color: antiquewhite;
 }
 .about-card {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 /* About Section End */
+
+/* Skill Progress Part Start  */
+.skills-section {
+  padding: 80px 8%;
+  background: antiquewhite;
+  color: #492d23;
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-title p {
+  opacity: 0.8;
+}
+
+/* Skill Item */
+.skill {
+  margin-bottom: 25px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Progress Bar Background */
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #492d23;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+/* Progress Fill */
+.progress {
+  height: 100%;
+  background: #a16651;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 60px 5%;
+  }
+
+  .skills-title h2 {
+    font-size: 2rem;
+  }
+}
+/* Skill Progress Part End */
+
+/* Client Part Start  */
+/* ==========================
+   Client Logo Section
+========================== */
+
+.client-section {
+  padding: 100px 8%;
+  background: #492d23;
+  color: antiquewhite;
+}
+
+/* Title */
+.client-title {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 60px;
+}
+
+.client-title span {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid rgba(250, 235, 215, 0.15);
+  border-radius: 30px;
+  background: rgba(250, 235, 215, 0.05);
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.client-title h2 {
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+
+.client-title p {
+  opacity: 0.8;
+  line-height: 1.8;
+}
+
+/* Logo Grid */
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* Logo Card */
+.client-card {
+  height: 140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(250, 235, 215, 0.05);
+  border: 1px solid rgba(250, 235, 215, 0.1);
+  border-radius: 18px;
+
+  transition: 0.4s ease;
+}
+
+/* Hover */
+.client-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 30px rgba(0, 0, 0, 0.25),
+    0 0 15px rgba(250, 235, 215, 0.08);
+}
+
+/* Logo */
+.client-card img {
+  max-width: 140px;
+  max-height: 70px;
+
+  opacity: 0.75;
+  filter: brightness(0) invert(0.9);
+
+  transition: 0.4s ease;
+}
+
+.client-card:hover img {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .client-section {
+    padding: 70px 5%;
+  }
+
+  .client-title h2 {
+    font-size: 2rem;
+  }
+
+  .client-card {
+    height: 110px;
+  }
+
+  .client-card img {
+    max-width: 110px;
+  }
+}
+/* Client Part End */
