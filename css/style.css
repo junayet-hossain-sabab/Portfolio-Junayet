@@ -24,3 +24,29 @@ p {
   padding: 0;
   line-height: 0.8;
 }
+/* Header Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar a{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+/* Header Part End */
+
+
+
+/* Banner Part Start  */
+#bannerPart {
+  background: url(../images/bannerimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+/* Banner Part End  */
