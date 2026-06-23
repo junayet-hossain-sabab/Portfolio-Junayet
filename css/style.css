@@ -30,18 +30,16 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  font-family: "Josefin Sans", sans-serif;
-  
+  font-family: "Poppins", sans-serif;
 }
 .navbar a {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 300;
   color: antiquewhite;
 }
-.overly
-{
-    background: rgba(0, 0, 0, 0.39);
-    height: 100%;
+.overly {
+  background: rgba(0, 0, 0, 0.39);
+  height: 100%;
 }
 /* Header Part End */
 
@@ -51,9 +49,300 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 700px;
 }
-.bannerText{
-    
+.bannerText h3 {
+  padding-top: 350px;
+  font-size: 70px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
+  width: 10px;
+  line-height: 65px;
+  position: relative;
+}
+.bannerText h3:after {
+  content: "";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  color: teal;
+  height: 4px;
+  width: 20px;
+}
+.portfolioBtn:hover {
+  background: #492d23;
+  transition: all linear 0.4ms;
+  color: antiquewhite;
+}
+.portfolioBtn {
+  background: transparent;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 15px 40px;
+  border-radius: 10px;
+  color: #a16651;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid antiquewhite;
+  margin-top: 40px;
 }
 /* Banner Part End  */
+
+/*===========================
+  card-01 css
+===========================*/
+.single-card {
+  box-shadow: var(--shadow-1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-card:hover {
+  box-shadow: var(--shadow-4);
+}
+.single-card .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.single-card .card-content {
+  padding: 16px;
+}
+.single-card .card-content .card-title {
+  margin-bottom: 0;
+}
+.single-card .card-content .card-title a {
+  color: var(--black);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-card .card-content .card-title a:hover {
+  color: var(--primary);
+}
+.single-card .card-content .text {
+  color: var(--dark-3);
+  margin-top: 8px;
+}
+.card-area {
+  background-color: antiquewhite;
+}
+.card-content h4 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #492d23;
+}
+.servicePart h3 {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0px;
+  text-transform: uppercase;
+  color: #492d23;
+}
+/* Feedback Start  */
+/* Feedback Section */
+.feedback-section {
+  padding: 80px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  opacity: 0.7;
+}
+
+/* Cards Grid */
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Single Card */
+.feedback-card {
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Client Info */
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.client-info img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-info h3 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.client-info span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* Rating */
+.stars {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* Feedback Text */
+.feedback-card p {
+  line-height: 1.7;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .feedback-section {
+    padding: 60px 5%;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+}
+
+.feedback-section {
+  background: antiquewhite;
+}
+.section-title {
+  color: #492d23;
+}
+.client-info h3,
+p {
+  color: #492d23;
+}
+.stars {
+  color: #492d23;
+}
+/* Feedback End */
+
+/* About Section Start */
+.about-section {
+  padding: 80px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  opacity: 0.7;
+}
+
+/* Layout */
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.about-card {
+  padding: 30px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-card h3 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Education & Experience Items */
+.timeline-item {
+  margin-bottom: 25px;
+  padding-left: 15px;
+  border-left: 3px solid #ffb400;
+}
+
+.timeline-item h4 {
+  margin-bottom: 5px;
+}
+
+.timeline-item span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+
+.timeline-item p {
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* Skills */
+.skill-item {
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 5%;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+}
+.about-section{
+    background: #492d23;
+}
+.about-section h2,p{
+    color: antiquewhite;
+}
+.about-card {
+    color: antiquewhite;
+}
+/* About Section End */
