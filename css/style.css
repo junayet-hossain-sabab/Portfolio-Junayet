@@ -25,20 +25,25 @@ p {
   line-height: 0.8;
 }
 /* Header Part Start */
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  
 }
-.navbar a{
-    font-size: 25px;
-    font-weight: 500;
-    
+.navbar a {
+  font-size: 25px;
+  font-weight: 500;
+  color: antiquewhite;
+}
+.overly
+{
+    background: rgba(0, 0, 0, 0.39);
+    height: 100%;
 }
 /* Header Part End */
-
-
 
 /* Banner Part Start  */
 #bannerPart {
@@ -46,7 +51,9 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 400px;
 }
-
+.bannerText{
+    
+}
 /* Banner Part End  */
