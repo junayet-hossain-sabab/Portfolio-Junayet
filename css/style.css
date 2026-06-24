@@ -90,9 +90,7 @@ p {
 }
 /* Banner Part End  */
 
-/*===========================
-  card-01 css
-===========================*/
+/*  card-01   */
 .single-card {
   box-shadow: var(--shadow-1);
   border-radius: 8px;
@@ -360,6 +358,9 @@ p {
 .skills-title {
   text-align: center;
   margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .skills-title h2 {
@@ -413,9 +414,8 @@ p {
 /* Skill Progress Part End */
 
 /* Client Part Start  */
-/* ==========================
-   Client Logo Section
-========================== */
+
+/* Client Logo Section */
 
 .client-section {
   padding: 100px 8%;
@@ -529,8 +529,9 @@ p {
   padding: 40px 0px;
   color: #492d23;
   font-size: 30px;
-  font-weight: 600;
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 
 .sliderHeading h3 {
@@ -581,6 +582,8 @@ p {
 /* Title */
 .contact-title {
   margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 
 .contact-title h2 {
@@ -649,6 +652,16 @@ p {
 
 /* Footer Part Start  */
 /* Footer */
+
+.currentDateTime {
+  padding-top: 20px;
+  font-size: 10px;
+  opacity: 0.8;
+  margin-bottom: 10pxpx;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
 .footer {
   background: #492d23;
   color: antiquewhite;
@@ -658,7 +671,7 @@ p {
 
 /* Container */
 .footer-container {
-  max-width: 800px;
+  width: 800px;
   margin: auto;
 }
 
