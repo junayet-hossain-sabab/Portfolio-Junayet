@@ -38,7 +38,7 @@ p {
   color: antiquewhite;
 }
 .overly {
-  background: rgba(0, 0, 0, 0.39);
+  background: rgba(0, 0, 0, 0.4);
   height: 100%;
 }
 /* Header Part End */
@@ -221,6 +221,7 @@ p {
 /* Feedback Text */
 .feedback-card p {
   line-height: 1.7;
+  color: #492d23;
 }
 
 /* Mobile */
@@ -266,6 +267,7 @@ p {
 
 .section-title p {
   opacity: 0.7;
+  color: #492d23;
 }
 
 /* Layout */
@@ -523,6 +525,14 @@ p {
   background: antiquewhite;
 }
 
+.portfolioHeading h3 {
+  padding: 40px 0px;
+  color: #492d23;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .sliderHeading h3 {
   text-align: center;
   padding: 20px 0px;
@@ -576,6 +586,11 @@ p {
 .contact-title h2 {
   font-size: 3rem;
   margin-bottom: 10px;
+  text-align: center;
+}
+.contact-title p {
+  color: #492d23;
+  text-align: center;
 }
 
 /* Form */
