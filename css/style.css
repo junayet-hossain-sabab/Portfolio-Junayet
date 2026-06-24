@@ -52,7 +52,7 @@ p {
   height: 700px;
 }
 .bannerText h3 {
-  padding-top: 350px;
+  padding-top: 330px;
   font-size: 70px;
   font-weight: 100;
   font-family: "Poppins", sans-serif;
@@ -86,7 +86,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   border: 2px solid antiquewhite;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 /* Banner Part End  */
 
@@ -515,4 +515,193 @@ p {
     max-width: 110px;
   }
 }
+
 /* Client Part End */
+
+/* Portfolio Part Start  */
+#portfolioPart {
+  background: antiquewhite;
+}
+
+.sliderHeading h3 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #492d23;
+}
+/* Portfolio Part end */
+
+/* Contact Form Start  */
+/* Contact Section */
+.contact-section {
+  padding: 100px 8%;
+  background: antiquewhite;
+  color: #492d23;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Left Image */
+.contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+
+  box-shadow: 0 20px 40px rgba(73, 45, 35, 0.2);
+}
+
+/* Right Side */
+.contact-box {
+  flex: 1;
+}
+
+/* Title */
+.contact-title {
+  margin-bottom: 30px;
+}
+
+.contact-title h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 18px;
+  border: 1px solid rgba(73, 45, 35, 0.3);
+  border-radius: 10px;
+  background: transparent;
+  color: #492d23;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #492d23;
+  box-shadow: 0 0 10px rgba(73, 45, 35, 0.15);
+}
+
+/* Button */
+.contact-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #492d23;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: transparent;
+  color: #492d23;
+  border: 1px solid #492d23;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-title h2 {
+    font-size: 2.2rem;
+  }
+}
+/* Contact Form End */
+
+/* Footer Part Start  */
+/* Footer */
+.footer {
+  background: #492d23;
+  color: antiquewhite;
+  padding: 60px 8%;
+  text-align: center;
+}
+
+/* Container */
+.footer-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Name */
+.footer-container h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* Text */
+.footer-container p {
+  opacity: 0.8;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Links */
+.footer-links,
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+  color: antiquewhite;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/* Hover */
+.footer-links a:hover,
+.footer-social a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Bottom text */
+.footer-bottom {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container h3 {
+    font-size: 1.6rem;
+  }
+
+  .footer-links a,
+  .footer-social a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+}
+/* Footer Part End */
